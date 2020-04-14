@@ -38,24 +38,20 @@ export default {
         ],
         screenshots: [
           {
-            thumbnail: require("@/image/screenshot/juiker1.png"),
-            raw: require("@/image/screenshot/juiker1.png")
+            thumbnail: require("@/image/screenshot/teamgoal1.jpg"),
+            raw: require("@/image/screenshot/teamgoal1.jpg")
           },
           {
-            thumbnail: require("@/image/screenshot/juiker2.png"),
-            raw: require("@/image/screenshot/juiker2.png")
+            thumbnail: require("@/image/screenshot/teamgoal2.jpg"),
+            raw: require("@/image/screenshot/teamgoal2.jpg")
           },
           {
-            thumbnail: require("@/image/screenshot/juiker3.png"),
-            raw: require("@/image/screenshot/juiker3.png")
+            thumbnail: require("@/image/screenshot/teamgoal3.jpg"),
+            raw: require("@/image/screenshot/teamgoal3.jpg")
           },
           {
-            thumbnail: require("@/image/screenshot/juiker4.png"),
-            raw: require("@/image/screenshot/juiker4.png")
-          },
-          {
-            thumbnail: require("@/image/screenshot/juiker5.png"),
-            raw: require("@/image/screenshot/juiker5.png")
+            thumbnail: require("@/image/screenshot/teamgoal4.jpg"),
+            raw: require("@/image/screenshot/teamgoal4.jpg")
           }
         ],
         details: [
