@@ -1,0 +1,130 @@
+@import "@/css/const.scss";
+
+body {
+  min-height: 100vh;
+  color: $darkTextColor;
+  background-color: #F5F3EC;
+  font-family: "Helvetica Neue";
+}
+
+footer {
+  background: $darkBackgroundColor;
+  padding: 8px 0;
+
+  .copyright {
+    color: #dadada;
+    font-size: 0.8em;
+  }
+}
+
+rt {
+  font-size: 30%;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-family: Menlo;
+}
+
+.icon {
+  width: 230px;
+  height: 230px;
+  border-radius: 50px;
+  border: 0.5px solid #e4e4e4;
+  margin: 50px auto;
+  display: block;
+
+  @media #{$breakPointNormal} {
+    float: right;
+  }
+}
+
+.appInfo {
+  text-align: left;
+  margin: 50px auto;
+
+  @media #{$breakPointCompact} {
+    text-align: center;
+  }
+}
+
+.verticalCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+
+  li {
+    a {
+      color: $grayTextColor;
+      margin: 0 10px;
+
+      &:hover {
+        color: $darkTextColor;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+.animate-flicker {
+  animation: fadeIn 1s infinite alternate;
+}
+
+.workDetail {
+
+  .infoSection {
+    position: relative;
+    padding: 50px 0;
+    margin: 0 0 80px 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: $lightGradientBackgroundColor;
+      pointer-events: none;
+      z-index: -2;
+    }
+  }
+
+  .downloadSection {
+    margin-bottom: 80px;
+
+    .appStore {
+      margin: auto;
+      width: 270px;
+      height: 80px;
+      display: block;
+      background: url("https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg-25178aeef6eb6b83b96f5f2d004eda3bffbb37122de64afbaef7107b384a4132.svg");
+      background-size: contain;
+      margin-bottom: 40px;
+    }
+
+    .qrCode {
+      margin: auto;
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
