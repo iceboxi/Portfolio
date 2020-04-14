@@ -13,26 +13,27 @@ export default {
   data: () => {
     return {
       info: {
-        name: "Qちゃん",
-        subTitle: "猫の鳴き声",
+        name: "teamgoal!",
+        subTitle: "企業溝通與進度流程管理系統",
         icon: require("@/image/icon/teamgoal.png"),
         description: `
-        猫飼っています。男の子ですが、名前は「Qちゃん」です。<br>
-        猫の鳴き声を真似してもいつも一切無視していました。たまにYoutubeで猫動画を見ているところ、すごく反応していました。
-        もしかして人間の音域と猫のが全然違うかなと思って、じゃアプリで猫の鳴き声を出せば反応してくれるんよねと軽い気持ちでアプリを作りました。<br>
-        遊び心満載のアプリです！ UIBezierPathとCALayerどこまで表現できるのかの挑戦です。
+        teamup!提供企業多項友善且好用的服務
+          1.建立多元的群組類型，溝通管理更有效
+          2.目標管理，隨時掌握進度，快速上手
+          3.建立人脈網絡，掌握資源更簡單
+          4.私聊建立人脈清單，使溝通更有效率
+          5.企業服務，整合企業原有資源，深化企業與員工間的黏著度
         `,
-        copyright: "2018 Copyright ShenWen Yang",
-        appStoreURL:
-          "https://itunes.apple.com/jp/app/q%E3%81%A1%E3%82%83%E3%82%93/id1130228883?mt=8",
-        previous: "note.html",
-        next: "cafe.html",
+        copyright: "Gamania Co., Ltd.",
+        appStoreURL: "",
+        previous: "juiker.html",
+        next: "",
         previews: [
           {
             video: require("@/video/juiker1.mov"),
-            title: "2Dで3Dを表現",
+            title: "公布欄與群組",
             description:
-              "UIBezierPathで各パーツを描画して、CAAnimationでPathとTransformを変化して、表情と3D効果を再現する"
+              "工作資訊分享與訊息瀑布"
           }
         ],
         screenshots: [
@@ -60,27 +61,27 @@ export default {
         details: [
           {
             title: "種類",
-            tags: ["個人開発"]
+            tags: ["公司產品"]
           },
           {
-            title: "担当",
-            tags: ["企画", "要件定義", "設計デザイン", "開発"]
+            title: "負責",
+            tags: ["開發", "維護", "架構設計", "需求分析"]
           },
           {
             title: "Language",
-            tags: ["Swift"]
+            tags: ["Swift", "Objective-C"]
           },
           {
             title: "Device",
-            tags: ["iPhone", "iPad"]
+            tags: ["iPhone"]
           },
           {
             title: "Technology",
-            tags: ["AVFoundation", "Fabric"]
+            tags: ["Signal-R", "WKWebKit", "Fabric"]
           },
           {
             title: "Localization",
-            tags: ["日本語", "英語", "中国語"]
+            tags: ["繁體中文"]
           }
         ]
       }
