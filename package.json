@@ -11,7 +11,7 @@
     "animate.css": "^3.7.0",
     "aos": "^2.3.4",
     "bootstrap-vue": "^2.0.0-rc.11",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "js-cookie": "^2.2.0",
     "qrcodejs2": "0.0.2",
     "rellax": "^1.7.2",
