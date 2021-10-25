@@ -30,37 +30,37 @@ export default {
         next: "",
         previews: [
           {
-            video: require("@/video/teamgoal!_overall.mp4"),
+            video: require("@/video/tgOverall.mov"),
             title: "個人化企業協同工具",
             description:
               "個人資訊與工作所需工具盡在掌中"
           },
           {
-            video: require("@/video/teamgoal!_group.mp4"),
+            video: require("@/video/tgGroup.mov"),
             title: "專案與單位群組",
             description:
               "工作資訊分享、訊息瀑布與獨立行事曆"
           },
           {
-            video: require("@/video/teamgoal!_org.mp4"),
+            video: require("@/video/tgOrg.mov"),
             title: "組織圖",
             description:
               "公司組織圖象化顯示，單位緊急訊息快速佈達"
           },
           {
-            video: require("@/video/teamgoal!_todo.mp4"),
+            video: require("@/video/tgTodo.mov"),
             title: "工作管理",
             description:
               "精準掌握工作進程與專案溝通"
           },
           {
-            video: require("@/video/teamgoal!_voip.mp4"),
+            video: require("@/video/tgVoip.mov"),
             title: "遠端工具",
             description:
               "線上會議與VoIP功能，遠端溝通無遠佛屆"
           },
           {
-            video: require("@/video/teamgoal!_H5.mp4"),
+            video: require("@/video/tgH5.mov"),
             title: "企業擴充",
             description:
               "快速擴充額外工具，串接各方服務"
