@@ -30,10 +30,40 @@ export default {
         next: "",
         previews: [
           {
-            video: require("@/video/juiker1.mov"),
-            title: "公布欄與群組",
+            video: require("@/video/teamgoal!_overall.mp4"),
+            title: "個人化企業協同工具",
             description:
-              "工作資訊分享與訊息瀑布"
+              "個人資訊與工作所需工具盡在掌中"
+          },
+          {
+            video: require("@/video/teamgoal!_group.mp4"),
+            title: "專案與單位群組",
+            description:
+              "工作資訊分享、訊息瀑布與獨立行事曆"
+          },
+          {
+            video: require("@/video/teamgoal!_org.mp4"),
+            title: "組織圖",
+            description:
+              "公司組織圖象化顯示，單位緊急訊息快速佈達"
+          },
+          {
+            video: require("@/video/teamgoal!_todo.mp4"),
+            title: "工作管理",
+            description:
+              "精準掌握工作進程與專案溝通"
+          },
+          {
+            video: require("@/video/teamgoal!_voip.mp4"),
+            title: "遠端工具",
+            description:
+              "線上會議與VoIP功能，遠端溝通無遠佛屆"
+          },
+          {
+            video: require("@/video/teamgoal!_H5.mp4"),
+            title: "企業擴充",
+            description:
+              "快速擴充額外工具，串接各方服務"
           }
         ],
         screenshots: [
