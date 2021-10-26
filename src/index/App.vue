@@ -132,7 +132,7 @@ export default {
         language: [
           { title: "Mobile", skills: ["Swift", "Objective-C", "Java"] },
           { title: "Web", skills: ["HTML", "CSS", "JavaScript"] },
-          { title: "Backend", skills: ["PHP", "JSP"] }
+          { title: "Backend", skills: ["PHP", "JSP", "Python"] }
         ],
         framework: [
           {
@@ -145,12 +145,15 @@ export default {
               "Autolayout",
               "Alamofire",
               "Realm",
+              "CoreData",
               "OpenCV",
               "Parse",
               "SDWebImage",
               "Fabric",
               "CocoaPods",
-              "Carthage"
+              "Carthage",
+              "SPM",
+              "JitsiMeet"
             ]
           },
           {
@@ -159,7 +162,7 @@ export default {
           }
         ],
         database: ["MySQL", "SQLite", "Realm", "CoreData"],
-        others: ["Git", "SVN", "JMeter", "AI & Machine Learning"]
+        others: ["Git", "SVN", "JMeter", "AI & Machine Learning", "Jenkins"]
       },
       timeline: [
         {

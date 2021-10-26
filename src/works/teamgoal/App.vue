@@ -33,7 +33,7 @@ export default {
             video: require("@/video/tgOverall.mov"),
             title: "個人化企業協同工具",
             description:
-              "個人資訊與工作所需工具盡在掌中"
+              "隨地隨地掌握工作，行動辦公的最佳選擇"
           },
           {
             video: require("@/video/tgGroup.mov"),
@@ -43,9 +43,9 @@ export default {
           },
           {
             video: require("@/video/tgOrg.mov"),
-            title: "組織圖",
+            title: "組織架構",
             description:
-              "公司組織圖象化顯示，單位緊急訊息快速佈達"
+              "公司組織圖象化編輯顯示，單位緊急訊息快速佈達"
           },
           {
             video: require("@/video/tgTodo.mov"),
@@ -103,7 +103,7 @@ export default {
           },
           {
             title: "Technology",
-            tags: ["Signal-R", "WKWebKit", "Fabric"]
+            tags: ["Signal-R", "Firebase", "WebRTC", "Realm", "RxSwift", "SwiftUI", "MVVM"]
           },
           {
             title: "Localization",
